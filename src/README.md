@@ -1,0 +1,3 @@
+## src
+
+This directory should contain all your "main" -side source files, which are usually the ones directly interacting with MaxWhere, or the outside world. Heavy-lifting is usually also done here, except in cases where this causes a noticable slowdown. In such a case, creating a separate render thread for the specific intensive task is recommended, as that can run truly parallel on a separate CPU thread.

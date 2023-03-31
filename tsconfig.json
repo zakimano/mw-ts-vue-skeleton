@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020"],
+    "strict": true,
+    "jsx": "preserve",
+    "module": "commonjs",
+    "allowJs": true,
+    "inlineSourceMap": true,
+    "outDir": "./mwdist",
+    "removeComments": true,
+    "pretty": true,
+
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["node_modules/@mxw/types"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

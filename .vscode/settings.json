@@ -1,0 +1,25 @@
+{
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  
+  "debug.javascript.terminalOptions": {
+    "stopOnEntry": true
+  },
+  
+  "prettier.endOfLine": "auto",
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": false,
+  "prettier.trailingComma": "es5",
+  "vetur.validation.templateProps": true,
+  
+  "editor.indentSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}

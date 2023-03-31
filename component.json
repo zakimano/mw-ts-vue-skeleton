@@ -1,0 +1,5 @@
+{
+  "name": "ts-vue-skeleton",
+  "main": "./mwdist/index.js",
+  "resources": "./resources"
+}
